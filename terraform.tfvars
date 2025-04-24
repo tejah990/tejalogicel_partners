@@ -1,0 +1,5 @@
+budget_name = "billing"
+limit_amount      = "100.00"
+time_period_start = "2025-05-01_00:00"
+time_period_end   = "2025-12-31_00:00"
+notification_email ="team-devops@logiciel.io"

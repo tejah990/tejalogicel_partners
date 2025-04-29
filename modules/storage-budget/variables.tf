@@ -30,7 +30,3 @@ variable "storage_threshold" {
   default     = 80
 }
 
-variable "storage_notification_email" {
-  description = "Email address to receive budget alerts"
-  type        = string
-}

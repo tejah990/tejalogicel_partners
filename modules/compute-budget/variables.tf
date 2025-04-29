@@ -30,8 +30,3 @@ variable "compute_threshold" {
   type        = number
   default     = 80
 }
-
-variable "compute_notification_email" {
-  description = "Email address to receive budget alerts"
-  type        = string
-}

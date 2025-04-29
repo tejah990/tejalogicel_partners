@@ -1,11 +1,6 @@
 Project_budget_name = "ProjectBudget"
 Project_limit_amount      = "100.00"
-Project_time_period_start = "2025-05-01_00:00"
-Project_time_period_end   = "2025-12-31_00:00"
-Project_notification_email = ["tejahhorizon@gmail.com"]
 compute_budget_name = "ComputeBudget"
 compute_limit_amount      = "60.00"
-compute_notification_email = ["tejahhorizon@gmail.com"]
 storage_budget_name = "StorageBudget"
 storage_limit_amount      = "40.00"
-storage_notification_email = ["tejahhorizon@gmail.com"]

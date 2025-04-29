@@ -54,10 +54,6 @@ variable "Project_time_period_end" {
   default     = null
 }
 
-variable "Project_notification_email" {
-  description = "Email address to receive budget alerts"
-  type        = string
-}
 
 variable "compute_budget_name" {
   description = "Name of the AWS Budget"
@@ -92,10 +88,6 @@ variable "compute_threshold" {
   default     = 80
 }
 
-variable "compute_notification_email" {
-  description = "Email address to receive budget alerts"
-  type        = string
-}
 
 variable "storage_budget_name" {
   description = "Name of the AWS Budget"
@@ -128,9 +120,4 @@ variable "storage_threshold" {
   description = "Threshold to trigger notification"
   type        = number
   default     = 80
-}
-
-variable "storage_notification_email" {
-  description = "Email address to receive budget alerts"
-  type        = string
 }

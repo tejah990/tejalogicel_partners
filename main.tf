@@ -11,7 +11,7 @@ module "compute-budget" {
   compute_notification_email = ["tejahhorizon@gmail.com"]
 }
 module "storage-budget" {
-  source             = "./modules/budget-alarm"
+  source             = "./modules/storage-budget"
   storage_budget_name        = var.storage_budget_name
   storage_limit_amount       = var.storage_limit_amount
   storage_notification_email = ["tejahhorizon@gmail.com"]

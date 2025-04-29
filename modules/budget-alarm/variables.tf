@@ -44,7 +44,3 @@ variable "Project_time_period_end" {
   default     = null
 }
 
-variable "Project_notification_email" {
-  description = "Email address to receive budget alerts"
-  type        = string
-}

@@ -1,5 +1,5 @@
 resource "aws_budgets_budget" "Storagebudget" {
-  name              = var.storage_budget.name
+  name              = var.storage_budget_name
   budget_type       = var.storage_budget_type
   limit_amount      = var.storage_limit_amount
   limit_unit        = var.storage_limit_unit

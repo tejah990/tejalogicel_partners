@@ -1,5 +1,5 @@
 resource "aws_budgets_budget" "Projectbudget" {
-  name              = var.Project_budget.name
+  name              = var.Project_budget_name
   budget_type       = var.Project_budget_type
   limit_amount      = var.Project_limit_amount
   limit_unit        = var.Project_limit_unit

@@ -1,8 +1,18 @@
 module "budget-alarm" {
   source             = "./modules/budget-alarm"
-  budget_name        = "ProjectBudget"
-  time_period_start = "2025-05-01_00:00"
-  time_period_end   = "2025-12-31_00:00"
-  limit_amount       = "100"
-  notification_email = "team-devops@logiciel.io"
+  Project_budget_name        = var.Project_budget_name
+  Project_limit_amount       = var.Project_limit_amount
+  notification_email = ["tejahhorizon@gmail.com"]
+}
+module "compute-budget" {
+  source             = "./modules/compute-budget"
+  compute_budget_name        = var.compute_budget_name
+  compute_limit_amount       = var.compute_limit_amount
+  compute_notification_email = ["tejahhorizon@gmail.com"]
+}
+module "storage-budget" {
+  source             = "./modules/budget-alarm"
+  storage_budget_name        = var.storage_budget_name
+  storage_limit_amount       = var.storage_limit_amount
+  storage_notification_email = ["tejahhorizon@gmail.com"]
 }

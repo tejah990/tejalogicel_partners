@@ -1,5 +1,11 @@
-budget_name = "billing"
-limit_amount      = "100.00"
-time_period_start = "2025-05-01_00:00"
-time_period_end   = "2025-12-31_00:00"
-notification_email ="team-devops@logiciel.io"
+Project_budget_name = "ProjectBudget"
+project_limit_amount      = "100.00"
+Project_time_period_start = "2025-05-01_00:00"
+Project_time_period_end   = "2025-12-31_00:00"
+Project_notification_email = ["tejahhorizon@gmail.com"]
+Compute_budget_name = "ComputeBudget"
+Compute_limit_amount      = "60.00"
+Compute_notification_email = ["tejahhorizon@gmail.com"]
+Storage_budget_name = "StorageBudget"
+Storage_limit_amount      = "40.00"
+Storage_notification_email = ["tejahhorizon@gmail.com"]

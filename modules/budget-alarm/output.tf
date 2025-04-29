@@ -1,3 +1,3 @@
 output "budget_name" {
-  value = aws_budgets_budget.Costbudget.name
+  value = aws_budgets_budget.Computebudget.name
 }

@@ -4,8 +4,10 @@ resource "aws_budgets_budget" "Storagebudget" {
   limit_amount      = var.storage_limit_amount
   limit_unit        = var.storage_limit_unit
   time_unit         = var.storage_time_unit
-  cost_filters = {
-    Service   = "Amazon Simple Storage Service"
+  
+   cost_filter {
+    name   = "Service"
+    values = ["Amazon Simple Storage Service"]
   }
   notification {
     comparison_operator = "GREATER_THAN"

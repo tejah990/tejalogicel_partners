@@ -2,7 +2,7 @@ module "budget-alarm" {
   source             = "./modules/budget-alarm"
   Project_budget_name        = var.Project_budget_name
   Project_limit_amount       = var.Project_limit_amount
-  notification_email = ["tejahhorizon@gmail.com"]
+  Project_notification_email = ["tejahhorizon@gmail.com"]
 }
 module "compute-budget" {
   source             = "./modules/compute-budget"

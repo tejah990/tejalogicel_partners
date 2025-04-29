@@ -2,6 +2,12 @@ variable "storage_budget_name" {
   description = "Name of the AWS Budget"
   type        = string
 }
+
+variable "storage_budget_type" {
+  description = "Type of budget: COST or USAGE or RI_COVERAGE etc."
+  type        = string
+  default     = "COST"
+}
 variable "storage_limit_amount" {
   description = "Budget limit"
   type        = string

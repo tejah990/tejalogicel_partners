@@ -13,3 +13,8 @@ module "storage-budget" {
   storage_budget_name        = var.storage_budget_name
   storage_limit_amount       = var.storage_limit_amount
 }
+module "network-budget" {
+  source             = "./modules/network-budget"
+  network_budget_name     =    var.network_budget_name
+  network_limit_amount       = var.network_limit_amount
+}

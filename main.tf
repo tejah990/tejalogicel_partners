@@ -33,7 +33,7 @@ resource "aws_budgets_budget" "ec2_usage_budget" {
     threshold           = 30
     threshold_type      = "PERCENTAGE"
     notification_type   = "ACTUAL"
-    subscriber_email_addresses  = ["phonexid65@gmail.com"]
+    subscriber_email_addresses  = ["test@gmail.com"]
   }
   # Removed cost_filters block because it's not valid for USAGE budgets.
 }

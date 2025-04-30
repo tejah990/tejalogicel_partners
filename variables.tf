@@ -6,6 +6,7 @@ variable "aws_region" {
     condition     = contains(["us-east-1", "us-west-2"], var.aws_region)
     error_message = "The region must be either 'us-east-1' or 'us-west-2'"
   }
+  default = "us-east-1"
 }
 
 variable "Project_budget_name" {
